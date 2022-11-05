@@ -1,6 +1,17 @@
 html {
   margin: 0px 0px;
   padding: 0px 0px;
+  background-color: #FFFF;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width:auto;
+  height: auto;
+  margin: 0px 0px;
+  background-color: #cab4cb;
+  padding:none;
+  border:none;
 }
 
 header {
@@ -40,7 +51,7 @@ header {
 }
 
 #content{
-	background-color: #59A79A;/*Couleur de fond*/
+	background-color: #59A79A;
 }
 
 p {
@@ -56,19 +67,6 @@ p {
 
 div {
   background-image: linear-gradient(rgb(249, 154, 249), rgba(163, 90, 214, 0.911)),
-}
-
-html {
-  background-color: #FFFF;
-}
-
-body {
-  width:auto;
-  height: auto;
-  margin: 0px 0px;
-  background-color: #d3a2e4;
-  padding:none;
-  border:none;
 }
 
 h1 {

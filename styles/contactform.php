@@ -1,7 +1,11 @@
 <?php
 
 $name = $email = $subject = $mailFrom = $message
-
+$a = true; 
+if ($a == true){
+    return 'gg';
+ }
+ 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = test_input ($_POST['name']);
     $subject = test_input ($_POST['subject']);
